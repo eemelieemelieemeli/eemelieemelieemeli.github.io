@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digitaaliset palvelut</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="ylapalkki"></div>
+  <div class="header"> 
+    <div class="nav">
+      <a href="javascript:void(0);" class="navicon" onclick="navigaatio()">
+        <img id="icon" src="nav1.svg" alt="navigaatiopainike" style="width:30px;height:30px;">
+      </a>
+    </div>
+    <!--ylävalikko-->
+    <nav class="navigaatio-iso">
+    <ul class="navigaatio-lista">
+      <li><a href="etusivu.html">Etusivu</a></li>
+      <li><a href="palvelut.html">Palvelut</a></li>
+      <li><a class="active" href="yhteystiedot.html">Yhteystiedot</a></li>
+    </ul>
+    </nav>
+  </div>
+  <!--hampurilaisvalikko-->
+  <nav class="navigaatio" id="navigaatio">
+    <ul>
+      <li><a href="etusivu.html">Etusivu</a></li>
+      <li><a href="palvelut.html">Palvelut</a></li>
+      <li><a class="active" href="yhteystiedot.html">Yhteystiedot</a></li>
+    </ul>
+  </nav>
+  <!--sisältö-->
+  <div class="yhteystiedot">
+    <div class="otsikkotext">
+      <h1>Ota yhteyttä</h1>
+      <p>eemelieemelieemeli@sähköposti.com</p>
+    </div> 
+  </div>
+  <hr> 
+  <div class="ala-content">
+  <a href=""><img src="logo3.png" alt="github-logo" height="40px"></a>
+  <a href=""><img src="logo2.png" alt="linkedin-logo" height="40px"></a>
+  <a href=""><img src="logo1.png" alt="viesti-logo" height="40px"></a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digitaaliset palvelut</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="ylapalkki"></div>
+  <div class="header"> 
+    <div class="nav">
+      <a href="javascript:void(0);" class="navicon" onclick="navigaatio()">
+        <img id="icon" src="nav1.svg" alt="navigaatiopainike" style="width:30px;height:30px;">
+      </a>
+    </div>
+    <!--ylävalikko-->
+    <nav class="navigaatio-iso">
+      <ul class="navigaatio-lista">
+        <li><a href="etusivu.html">Etusivu</a></li>
+        <li><a class="active" href="palvelut.html">Palvelut</a></li>
+        <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!--hampurilaisvalikko-->
+  <nav class="navigaatio" id="navigaatio">
+    <ul>
+      <li><a href="etusivu.html">Etusivu</a></li>
+      <li><a class="active" href="palvelut.html">Palvelut</a></li>
+      <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+    </ul>
+  </nav>
+  <!--sisältö-->
+  <div class="content">
+    <div class="otsikkocontent">
+      <div class="otsikkoteksti">
+        <h1>Palvelut</h1>
+
+      </div> 
+    </div>
+  </div>
+  <div class="keskicontent">
+    <div class="objekti">
+      <h2>Käyttöliittymä ja käyttökokemussuunnittelu (UI/UX Design)</h2>
+      <p>Selkeä, kaunis ja käyttäjäystävällinen käyttöliittymä tekee palveluista toimivan ja miellyttävän käyttää. Suunnittelen digipalvelut niin, että ne vastaavat käyttäjän tarpeita ja ohjaavat intuitiivisesti oikeaan suuntaan</p>
+    </div>
+    <div class="objekti">
+      <h2>Verkkosivujen suunnittelu ja toteutus</h2>
+      <p>Rakennan moderneja, responsiivisia ja toimivia verkkosivustoja, jotka näyttävät hyvältä kaikilla laitteilla. Käytän selkeää koodia ja kevyitä ratkaisuja, jotka palvelevat sekä asiakasta että käyttäjää</p>
+    </div>
+    <div class="objekti">
+      <h2>Digitaalisten palveluiden konseptointi</h2>
+      <p>Autan ideoimaan ja muotoilemaan digitaalisia palveluita alusta asti. Työskentelen yhdessä asiakkaan kanssa kirkastaakseni tavoitteet, käyttäjät ja palvelupolut - ideasta konkretiaan.</p>
+    </div>
+  </div>
+  <hr>
+  <div class="ala-content">
+    <a href=""><img src="logo3.png" alt="github-logo" height="40px"></a>
+    <a href=""><img src="logo2.png" alt="linked-logo" height="40px"></a>
+    <a href=""><img src="logo1.png" alt="viesti-logo" height="40px"></a>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

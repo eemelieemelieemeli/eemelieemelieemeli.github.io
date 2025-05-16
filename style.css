@@ -1,0 +1,296 @@
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.ylapalkki {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #ffbf00;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    height: 35px;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.navigaatio-iso {
+    display: none;
+    align-items: center;
+}
+
+.navigaatio-iso ul {
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    padding: 0;
+}
+
+.navigaatio-iso li {
+    padding-inline: 20px;
+
+}
+
+.navigaatio-iso a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #666666;
+    font-weight: bold;
+}
+
+.navigaatio-iso a:hover {
+    color: #1a1a1a;
+}
+
+.navigaatio-iso a.active {
+    color: #1a1a1a;
+}
+
+
+
+.nav {
+    height: 35px;
+    width: 35px;
+}
+
+.navicon {
+    display: flex;
+    padding-top: 2.5px;
+    padding-left: 2.5px;
+
+}
+
+.navigaatio {
+    position: fixed;
+    display: none;
+    top: 40px;
+    left: 0;
+    height: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid #e7e7e7;
+}
+
+.navigaatio ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 8px;
+    margin: 0;
+}
+
+.navigaatio li {
+    background-color: #ffffff;
+    padding-block: 8px;
+}
+
+.navigaatio a {
+    font-size: 0.8em;
+    color: #666666;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+.navigaatio a:hover {
+    color: #1a1a1a;
+}
+
+.navigaatio a.active {
+    color: #1a1a1a;
+}
+
+.kuva {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.kuva img {
+    max-width: 70%;
+
+}
+
+.otsikkoteksti {
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+.otsikkocontent {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-inline: 25px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.ylacontent {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 80px;
+}
+
+.keskicontent {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.otsikkotext {
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+.yhteystiedot {
+    padding-top: 90px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+
+.objekti {
+    margin-bottom: 40px;
+    width: 60%;
+    background-color: #e7e7e7;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+
+.objekti p {
+    padding-inline: 20px;
+}
+
+.objekti h2 {
+    padding-inline: 20px;
+}
+
+.ala-content {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.ala-content a {
+    padding-inline: 20px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #e7e7e7;
+    margin: 20px 0;
+
+}
+
+@media (min-width: 768px) {
+
+    .ylacontent {
+        flex-direction: row;
+        align-items: center;
+        min-height: 45vw;
+        flex: 1;
+    }
+
+    .otsikkocontent {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+
+    .otsikkoteksti {
+        order: 1;
+        margin-left: auto;
+        margin-right: auto;
+        padding-inline: 80px;
+    }
+
+    .otsikkotext {
+        margin-left: auto;
+        margin-right: auto;
+        padding-inline: 80px;
+    }
+
+
+    .kuva {
+        max-width: 40%;
+        order: 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .nav {
+        display: none;
+    }
+
+    .navigaatio {
+        display: none;
+    }
+
+    .navigaatio-iso {
+        display: flex;
+    }
+
+    .header {
+        justify-content: center;
+    }
+
+
+}
